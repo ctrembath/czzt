@@ -20,12 +20,12 @@ $(document).ready(function(){
 
 		// $("header").fadeOut( title > 300);
 
-		var w = 600 - t/4;
+		// var w = 600 - title/4;
 
-		w= Math.max(200, w);
-		w=Math.min(400,w);
+		// w= Math.max(0, w);
+		// w=Math.min(150, w);
 
-		$("header img").css("width", w);
+		// $("header img").css("width", w);
 			
 			
 		})
