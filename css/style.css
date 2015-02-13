@@ -1,9 +1,9 @@
 body {
-	background-color:#37383b;
+	background-color:green;
 	color: white;
 
-	font-family: Arial;
-	font-size: 16px;
+	font-family: 'Share Tech Mono', Arial;
+	font-size: 60px;
 	line-height: 1.5;
 
 	transition: background 0.5s;
@@ -11,6 +11,18 @@ body {
 	padding: 40px 0;
 }
 
+body.oh {
+	background-color: black;
+}
+body.hi {
+	background-color: green;
+}
+body.im {
+	background-color: blue;
+}
+body.clre{
+	background-color: red;
+}
 header {
 	text-align: center;
 	position: fixed;
@@ -19,4 +31,32 @@ header {
 	width: 100%;
 	z-index: 2;
 	transition: top 2s;
+}
+
+header img {
+	height:150px;
+}
+
+nav a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+	padding: 0 10px;
+	transition: color 0.25s;
+}
+
+
+section#oh {
+	margin-top: 100px;
+}
+
+p {
+	margin: 20px 0;
+	text-align: center;
+}
+
+section.container {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.25);
 }
