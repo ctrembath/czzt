@@ -1,7 +1,4 @@
-*{
-		text-decoration: none;
 
-}
 body {
 	background-color:#070707;
 	color: white;
@@ -25,13 +22,16 @@ body.im {
 	background-color: #7CFFC4;
 }
 body.clre{
-	background-color: #E9F1F7;
+	background-color: #473BF0;
 }
 body.pictures{
 	background-color: #14FFF7 ;
 }
+body.git{
+	background-color: #04F06A ;
+}
 body.email{
-	background-color: #121420;
+	background-color: #070707;
 }
 header {
 	float: right;
@@ -83,6 +83,5 @@ section.container {
 }
 
 a {
-	text-decoration: none;
-	font-color: red;
+	
 }

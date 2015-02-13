@@ -15,7 +15,8 @@ $(document).ready(function(){
 		$("body").toggleClass("im", title > 450);
 		$("body").toggleClass("clre", title > 750);
 		$("body").toggleClass("pictures", title > 1380);
-		$("body").toggleClass("mail", title > 2110);
+		$("body").toggleClass("git", title > 1700);
+		$("body").toggleClass("email", title > 2100);
 
 		// $("header").fadeOut( title > 300);
 
