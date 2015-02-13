@@ -1,0 +1,22 @@
+body {
+	background-color:#37383b;
+	color: white;
+
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+
+	transition: background 0.5s;
+
+	padding: 40px 0;
+}
+
+header {
+	text-align: center;
+	position: fixed;
+	top: 0;
+	padding: 20px 0 20px 0;
+	width: 100%;
+	z-index: 2;
+	transition: top 2s;
+}
