@@ -1,13 +1,29 @@
-html {
-	background-image: url(../images/background.gif);
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+body, div, img {
+    margin: 0; padding: 0; border: 0; outline: none;
 }
-
-
-img {
-	height: 150px;
-	width: 150px;
-	
+body { 
+    font-family:'DeibiRegular', Helvetica, Arial, sans-serif;
+    background:#f2f2f2 url('images/bg.jpg');
+    color: #fff; width:100%;
 }
+#wrap_out {width:100%; overflow-x:hidden;}
+#wrap {width: 960px; margin: 0 auto; z-index:1;position:relative;}
+ 
+ 
+header {display:block;z-index:2 position:relative;}
+header p {display:block; font-size:30px; padding: 70px 60px 0px;}
+h1 {text-align:center;font-size:130px; margin-top: 30px; text-shadow: 0 0 60px #889473;}
+h1 em {color: #f5f187;font-style: normal;}
+ 
+#separation {margin: 0 auto;width: 592px;z-index:-1;position:relative;}
+ 
+section {position:relative; margin-top: 120px;display:block}
+ 
+.element { position:absolute; display:block;}
+.element#coriander {top:0px; left:30px; width: 286px; height: 272px;}
+.element#rosemary {top:40px; left: 335px; width: 370px; height: 183px;}
+.element#chives {top : 0px; right:30px; width: 197px; height: 514px;}
+.element#lemonbalm {left: 30px; top:280px; width:265px; height: 233px;}
+.element#basil {right: 255px; top:250px; width:368px; height: 263px;}
+ 
+footer {margin-bottom: 10px;text-align:center;font-size: 30px; display:block}
