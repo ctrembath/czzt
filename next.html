@@ -7,31 +7,31 @@
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/next.css">
+    <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
     <script src="js/jquery.js" type="text/javascript"> </script>
 </head>
 
 <body>
     <header>
-        <h1 id="heady">what's next</h1>
+            <h1 id="heady"> what's next</h1>
     </header><video autoplay="true" id="bgvideo" loop="" src=
     "video/ovawhelm.mp4"></video>
 
   <script> 
-  jquery(document).ready(function() {
+
+  jQuery(document).ready(function() {
   $('video#bgvideo').on("loadedmetadata", scaleVideo);
 
   function scaleVideo() {
       var windowHeight = $(window).height();
       var windowWidth = $(window).width();
-      alert(windowHeight + 'and the window width is' +
-          windowWidth);
   }
+  setTimeout(function() { $("#heady").show() }, 1000);
+});
 
-  function gethead() {
-      var head = (document).getElementById("heady");
-      $("head").css("display", "block");
-    }
-  }) 
+  
+
+
   </script>
 </body>
 </html>
