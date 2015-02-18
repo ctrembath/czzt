@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/background.gif);
+	background-image: url(../images/ohhi.gif);
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Share Tech Mono', Arial;
@@ -7,7 +7,7 @@ body {
 
 p {
 	text-align: center;
-	font-size: 50px;
+	font-size: 100px;
 }
 
 a {
