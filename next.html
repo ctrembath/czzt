@@ -6,33 +6,32 @@
     <title>czzt</title>
 
     <link rel="stylesheet" href="css/reset.css">
-
+    <link rel="stylesheet" href="css/next.css">
     <script src="js/jquery.js" type="text/javascript"> </script>
-  
+</head>
 
-    <script>
+<body>
+    <header>
+        <h1 id="heady">what's next</h1>
+    </header><video autoplay="true" id="bgvideo" loop="" src=
+    "video/ovawhelm.mp4"></video>
 
-    jquery(document).ready(function() {
-
-  $ ('video#bgvideo').on("loadedmetadata", scaleVideo);
+  <script> 
+  jquery(document).ready(function() {
+  $('video#bgvideo').on("loadedmetadata", scaleVideo);
 
   function scaleVideo() {
+      var windowHeight = $(window).height();
+      var windowWidth = $(window).width();
+      alert(windowHeight + 'and the window width is' +
+          windowWidth);
+  }
 
-  var windowHeight = $ (window).height();
-  var windowWidth = $ (window).width();
-
-  alert(windowHeight + 'and the window width is' + windowWidth);
-
-}
-
-
-})
-    </script>
-  </head>
-
-  <body>
-    
-    <video controlls loop id="bgvideo" src="video/ovawhelm.mp4" autoplay="true"></video> 
-  </body>
-
+  function gethead() {
+      var head = (document).getElementById("heady");
+      $("head").css("display", "block");
+    }
+  }) 
+  </script>
+</body>
 </html>
