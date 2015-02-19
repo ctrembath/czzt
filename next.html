@@ -13,9 +13,8 @@
 </head>
 
 <body>
-    <header>
-            <h1 id="heady"> sumthin else?</h1>
-    </header><video autoplay="true" id="bgvideo" loop="" src=
+    <a href="abs.html" id="heady"> sumthin else?</a> 
+   <video autoplay="true" id="bgvideo" loop="" src=
     "video/ovawhelm.mp4"></video>
 
   <script> 
@@ -26,11 +25,12 @@
       var windowHeight = $(window).height();
       var windowWidth = $(window).width();
   }
-  setTimeout(function() { $("#heady").show( "puff",{ }, 1000 ) }, 1000)
+  setTimeout(function() { $("#heady").show() }, 5500);
+  $("#heady").click(function(){
+    console.log("hello");
   });
-  
+});
+    </script>
 
-
-  </script>
 </body>
 </html>
