@@ -1,0 +1,71 @@
+body {
+	font-family: 'Share Tech Mono', Arial;
+	margin: 0px;
+	background-color: #D4F5F5;
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px solid black;
+	height: 150px;
+	width: 100%;
+	background:url(../images/background.gif) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+	opacity: .8;
+	top: 0;
+	margin-top: 0px;
+	padding: 0px;
+	position: fixed;
+}
+
+section#work {
+	margin-top: 180px;
+	width: 80%;
+	background-color: #40F99B;	
+}
+
+p.title {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+p.place {
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+p.date {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+p.description {
+	text-align: center;
+	margin-top: 0;
+	padding-top: 0;
+}
+h1 {
+	margin-top: 5px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+h3, h5, h2 {
+	margin: 0;
+	padding: 0;
+}
+
+
+a {
+	text-decoration: none;
+	color: #000201;
+}
+section#education {
+	width: 80%;
+}
